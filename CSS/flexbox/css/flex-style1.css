@@ -47,26 +47,34 @@
       - item을 조정(justify)하는 속성
       - main axis 방향으로 item의 정렬 방법을 조정한다
       */
+      
+      /* main axis의 끝 지점을 기준으로 요소를 정렬*/
+      justify-content: flex-end;
+      
+      /* main axis의 가운데 지점으로 요소를 정렬*/
+      justify-content: center;
+      
+      /* item 주위에 main axis기준으로 양쪽에 일정한 크기의 공간을 추가하여 정렬*/
+      justify-content: space-around;
+      
+      /*
+      item이 main axis기준으로 항상 동일한 간격을 가지게 하면서 정렬
+      */
+      justify-content: space-evenly;
+      
+    /*
+    space-evenly에서 양 끝단을 flex-container에 붙여서
+    정렬하는 속성
+    */
+    justify-content: space-between;
+
     /* main axis(중심축)의 시작지점을 기분으로 요소를 정렬(기본값)*/
     justify-content: flex-start;
 
-    /* main axis의 끝 지점을 기준으로 요소를 정렬*/
-    justify-content: flex-end;
-
-    /* main axis의 가운데 지점으로 요소를 정렬*/
-    justify-content: center;
-
-    /* item 주위에 main axis기준으로 양쪽에 일정한 크기의 공간을 추가하여 정렬*/
-    justify-content: space-around;
-
     /*
-        item이 main axis기준으로 항상 동일한 간격을 가지게 하면서 정렬
+        align-items
+         - item들을 cross axis(교차축)방향으로 정렬하는 속성
     */
-    justify-content: space-evenly;
 
-    /*
-        space-evenly에서 양 끝단을 flex-container에 붙여서
-        정렬하는 속성
-    */
-    justify-content: space-between;
+    align-items: stretch;
 }
