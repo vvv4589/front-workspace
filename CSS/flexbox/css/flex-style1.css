@@ -75,6 +75,12 @@
         align-items
          - item들을 cross axis(교차축)방향으로 정렬하는 속성
     */
+    /*
+        item의 너비 또는 높이를 교차축 방향으로
+        쭉 늘려서 flex-container와 같은 크기를 가지게하는 속성
+        단, flex-item요소가 이미 교차축 방향으로 width/height
+        값을 가지고 있다면 적용되지 않는다
+    */
 
     align-items: stretch;
 }
