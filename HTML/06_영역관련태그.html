@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>영역 관련 태그</title>
+    <style>
+        div,span {
+            border : 1px solid black;
+        }
+
+        #div1,#span1 {
+            background-color: red;
+        }
+
+        #div2, #span2{
+            background-color: yellow;
+        }
+
+        #div, #span3{
+            background-color: green;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>영역 관련 태그</h1>
+
+    <!--
+        블럭 요소 : 한 줄 단위로 영역을 차지하는 요소들
+                    줄바꿈이 이미 적용되어 다음 요소 출력시 해당 요소의 다음 줄에 출력된다
+                    ex) h, p, pre, ...,"div"
+        인라인 요소 : content내용에 해당되는 부분만 영역을 차지하는 요소들
+                     줄바꿈이 적용되지 않아 옆으로 연이어 져서 출력된다
+                     ex) b, s, mark, input ..., "span"
+    -->
+
+    <h2>div태그와 span태그 차이점</h2>
+
+    <h3>div(division)태그 : 블럭요소 (한 줄 단위 영역차지)</h3>
+    <div id="div1">첫번째 영역</div>
+    <div id="div2">두번째 영역</div>
+    <div id="div3">세번째 영역</div>
+
+    <h3>span 태그 : 인라인 요소(content영역만을 차지)</h3>
+    <span id="span1">1번째 영역</span>
+    <span id="span2">2번째 영역</span>
+    <span id="span3">3번째 영역</span>
+
+    <h3>div 태그 : 컨텐츠 영역의 값을 커다란 사각형 박스로 영역을 지정</h3>
+    <div>
+        것은 지혜는 못할 인도하겠다는 같은 길을 이것은 심장은 청춘이 평화스러운 이상의 속에서 사라지지 있는가 고행을 끓는 천고에 시대다 가슴에 불어 동력은 시들어 감동하기 봄바람을 목숨을 그것은 얼마나 피고 날카로우나 같으며 보이는 남는 인간이 청춘 구할 아니더면 예수는 꾸며 곳이 인간의 많이 죽음이 천지는 방황하였으며 아니한 밝은 새가 그러므로 창공에 만천하의 그들의 바이며 밥을 주며 부패를 영원히 청춘의 병들지 군영과 바로 생명을 황금 뜨거운지라 것이다 피부가 있는 두 사는가 때에 불어넣는 같지 꽃이 두기 봄날의 인생을 찾아다녀도 사람은 무엇을 소금이라 순진한지라 과실이 우리는 설산에서 든 피가.
+
+산야에 아니한 심장은 죄악에 있는 너의 뜨거운지라 충분히 보라 그들에게 거선의 인간에 점염이 그들의 그와 감동하기 죽음이 것은 말이다 있으며 그들은 무엇이 사막이다 소담스러운 바이며 아니다 힘있다 시대의 착목하는 인간의 끓는다 우리의 현저하여 청춘의 무엇을 찾아다녀도 얼음과 봄바람을 때에 얼마나 힘차게 이것이다 이상이 생명을 그들을 피고 것이다 청춘은 끝까지 군영과 돋고 청춘에서만 맺어 만천하의 풀밭에 대한 인류의 꾸며 쓸쓸한 듣는다 물방아 같이 피에 거친 열매를 천고에 이것은 열락의 이상은 있는가 어디 못할 행복스럽고 칼이다 따뜻한 아니하였고 미인을 인도하겠다는 청춘을 보내는 피가 밝은 같은.
+
+    </div>
+
+    <h3>span 태그 : 컨텐츠 영역의 값을 문장단위로 영역을 지정</h3>
+
+    <span>
+        것은 지혜는 못할 인도하겠다는 같은 길을 이것은 심장은 청춘이 평화스러운 이상의 속에서 사라지지 있는가 고행을 끓는 천고에 시대다 가슴에 불어 동력은 시들어 감동하기 봄바람을 목숨을 그것은 얼마나 피고 날카로우나 같으며 보이는 남는 인간이 청춘 구할 아니더면 예수는 꾸며 곳이 인간의 많이 죽음이 천지는 방황하였으며 아니한 밝은 새가 그러므로 창공에 만천하의 그들의 바이며 밥을 주며 부패를 영원히 청춘의 병들지 군영과 바로 생명을 황금 뜨거운지라 것이다 피부가 있는 두 사는가 때에 불어넣는 같지 꽃이 두기 봄날의 인생을 찾아다녀도 사람은 무엇을 소금이라 순진한지라 과실이 우리는 설산에서 든 피가.
+
+산야에 아니한 심장은 죄악에 있는 너의 뜨거운지라 충분히 보라 그들에게 거선의 인간에 점염이 그들의 그와 감동하기 죽음이 것은 말이다 있으며 그들은 무엇이 사막이다 소담스러운 바이며 아니다 힘있다 시대의 착목하는 인간의 끓는다 우리의 현저하여 청춘의 무엇을 찾아다녀도 얼음과 봄바람을 때에 얼마나 힘차게 이것이다 이상이 생명을 그들을 피고 것이다 청춘은 끝까지 군영과 돋고 청춘에서만 맺어 만천하의 풀밭에 대한 인류의 꾸며 쓸쓸한 듣는다 물방아 같이 피에 거친 열매를 천고에 이것은 열락의 이상은 있는가 어디 못할 행복스럽고 칼이다 따뜻한 아니하였고 미인을 인도하겠다는 청춘을 보내는 피가 밝은 같은.
+
+
+
+
+    </span>
+
+    <hr>
+
+    <h1>iFrame 태그</h1>
+    <p>
+        - 현재 문서 내에 다른 웹페이지문서를 추가하는 태그
+    </p>
+
+    <iframe src="04_이미지와멀티미디어.html" width="600"></iframae>
+
+        
+
+    <br>
+
+    <iframe width="482" height="857" src="https://www.youtube.com/embed/ymgyBNt3VWc" title="참치회 제발 비싸게 사먹지마세요" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+    <iframe width="482" height="856" src="https://www.youtube.com/embed/UhrPxatBs8g" title="퍼스트터치 이건 진짜 유용하거든요 FC온라인 프로대회에서 나온 태국 대표선수의 퍼스트터치 조작법" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+
+
+    
+
+    <br>
+</body>
+</html>
