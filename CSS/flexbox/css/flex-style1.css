@@ -83,4 +83,19 @@
     */
 
     align-items: stretch;
+
+    /* cross axis의 시작지점을 기준으로 요소를 정렬*/
+    align-items: flex-start;
+
+    /* cross axix의 끝 부분에 요소를 정렬 */
+    align-items: flex-end;
+
+    /* cross axis기준 중간에 요소를 정렬*/
+    align-items: center;
+
+    /*
+        item내부의 content요소 기준 한줄로
+        배치되게 해주는 속성
+    */
+    align-items: baseline;
 }
